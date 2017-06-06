@@ -15,7 +15,17 @@ function wordCount($scope) {
          return arr.filter( a => a === arr[0]).join(",");
       } 
    };
+
+   $scope.shortest = function (){
+   	  if ($scope.words) {
+   	  	let arr = $scope.words.split(" ");
+   	  	arr.sort((curr,prev) => curr.length - prev.length);
+   	  	return arr.filter( a => a === arr[0]).join(",");
+   	  }
+   };
 }
+
+
  
 
 

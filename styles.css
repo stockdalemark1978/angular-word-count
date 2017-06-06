@@ -1,0 +1,18 @@
+body {
+	background-color: #6C49B8;
+	color:#D9D4CF;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+}
+
+input {
+	width: 350px;
+	height: 100px;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+	font-size: 50px;
+}
