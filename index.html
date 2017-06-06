@@ -10,16 +10,15 @@
         <div id="main" ng-controller="wordCount">
             <h1>Werd Counta</h1>
         <div id="input">
-            <input type="text" placeholder="paste your text" ng-change="textCounter()" ng-model="words">
-
-
+            <input type="text" placeholder="paste your text" ng-model="words">
         </div>
-
-
-            <p>
-            {{count}}
+            <p ng-model="textCounter">
+            {{textCounter()}}
             </p>
-
+            <p ng-model="longest">
+            {{longest()}}
+            </p>
+            
         </div>
 
 
