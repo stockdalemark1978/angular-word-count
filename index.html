@@ -10,13 +10,14 @@
         <div id="main" ng-controller="wordCount">
             <h1>Werd Counta</h1>
         <div id="input">
-            <input type="text" placeholder="paste your text" ng-model="inputText">
+            <input type="text" placeholder="paste your text" ng-change="textCounter()" ng-model="words">
+
 
         </div>
 
 
             <p>
-            {{inputText}}
+            {{count}}
             </p>
 
         </div>
